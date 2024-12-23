@@ -3,6 +3,8 @@ import { AuraX } from "./AuraX";
 import { Environment, OrbitControls } from "@react-three/drei";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Suspense } from "react";
+import { Loading } from "./Loading";
 gsap.registerPlugin(ScrollTrigger);
 
 export const CanvasContainer = () => {
