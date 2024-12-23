@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Ringus - Future of Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ringus** is a 3D website that showcases a futuristic concept of a smart ring. Built with modern web technologies such as **Vite**, **Three.js**, **GSAP**, and **Tailwind CSS**, this website highlights advanced skills in interactive 3D web design, animation, and responsive layouts.
 
-Currently, two official plugins are available:
+## Alert
+this website not responsive it works just on Desktop and +1024px Screens
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used:
+- **Vite**: A fast and optimized build tool for modern web development.
+- **Three.js**: A JavaScript library for creating 3D graphics in the web browser.
+- **GSAP**: A powerful library for creating high-performance animations and transitions.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-## Expanding the ESLint configuration
+## Features:
+- **Interactive 3D Model**: The website showcases an interactive 3D model of the smart ring.
+- **Smooth Animations**: Using GSAP, animations are fluid, providing a seamless user experience.
+- **Modern Aesthetic**: A sleek and futuristic design that captures the essence of innovative technology.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Setup Instructions
 
-- Configure the top-level `parserOptions` property like this:
+### 1. Clone the Repository
+First, clone the repository to your local machine:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+```bash
+git clone https://github.com/ThisIzNeo/Future-of-websites.git
