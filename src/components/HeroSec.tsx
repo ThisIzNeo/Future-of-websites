@@ -1,5 +1,3 @@
-import React from "react";
-
 export const HeroSec = () => {
   return (
     <div className="h-screen flex justify-center z-20">

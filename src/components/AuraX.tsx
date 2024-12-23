@@ -1,5 +1,5 @@
 import { useGLTF } from "@react-three/drei";
-import React, { useLayoutEffect } from "react";
+import  { useLayoutEffect } from "react";
 import { ring_smartGLTF } from "../typings";
 import { useThree } from "@react-three/fiber";
 import gsap from "gsap";
