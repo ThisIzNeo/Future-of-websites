@@ -29,6 +29,6 @@ First, clone the repository to your local machine:
 git clone https://github.com/ThisIzNeo/Future-of-websites.git
 ```
 
-### 2. Clone the Repository
+### 2. Preview
 
 <img src="./RingusPreview.png">
